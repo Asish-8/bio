@@ -56,7 +56,7 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    color: white;
+    color: darkblue;
 }
 
 a:hover {
@@ -67,16 +67,16 @@ a:hover {
 .quote {
     margin-top: 5vh;
     font-family: dlick;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 255);
     font-size: smaller;
-    opacity: 75%;
+    opacity: 85%;
     display: block;
 }
 
 h2 {
     padding: 1vh;
     margin-left: 1vw;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 
