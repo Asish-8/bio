@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url(FONTS/OTRtypeGX.ttf);
+    font-family: plick;
+}
+
+@font-face {
+    src: url(FONTS/FuturaPTBold.otf);
+    font-family: dlick;
+}
+
+@font-face {
+    src: url(FONTS/Draco.otf);
+    font-family: slick;
+}
+
+.main {
+    background: #00ff0d;
+    height: 20vh;
+}
+
+.icon img {
+    width: 45vw;
+    height: 12vh;
+    float: left;
+    padding-top: 3vh;
+    padding-left: 2vw;
+}
+
+.shape1 {
+    background-color: white;
+    width: 40vw;
+    height: 10vh;
+    float: right;
+    margin-top: 5vh;
+    margin-right: 5vw;
+    transform: skew(35deg);
+}
+
+ul {
+    font-family: plick;
+    float: right;
+    list-style-type: none;
+    margin-top: 7vh;
+    margin-right: 0vw;
+}
+
+ul li {
+    display: inline-block;
+    font-size: 3vh;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+
+}
+
+.quote {
+    margin-top: 5vh;
+    font-family: dlick;
+    color: rgb(255, 255, 255);
+    font-size: smaller;
+    opacity: 75%;
+    display: block;
+}
+
+h2 {
+    padding: 1vh;
+    margin-left: 1vw;
+    color: #ffffff;
+}
+
+
+
+.productu {
+    font-family: slick;
+    color: #000;
+
+}
+
+.carousel-cell {
+    width: 100%;
+    /* full width */
+    height: 200px;
+    background: rgb(255, 255, 255);
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+
+.carousel-cell img {
+    display: block;
+    max-height: 100%;
+}
+    </style>
+    <title>XEREX</title>
+
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="logo tab.png" />
+
+</head>
+<body>
+    <div class="main"> 
+        <div class="icon">
+            <div class="logo">
+               <img src="SOCIALS/logo/222.png" alt="logo">
+            
+              
+            </div>
+            </div>
+            
+            <div class="navbar">
+            <ul>
+                <li><a href="index.html">home   </a></li> &nbsp;&nbsp;&nbsp;
+                <li><a href="products.html">products   </a></li>&nbsp;&nbsp;&nbsp;
+                <li><a href="#">contact   </a></li>&nbsp;&nbsp;&nbsp;
+                <li><a href="#">about   </a></li>&nbsp;&nbsp;&nbsp;
+            </ul>
+        </div>
+       
+             <div class="shape1"></div>
+       
+            
+    </div>
+<br><br>
+    <div class="main-carousel" data-flickity='{  "autoPlay":true }'>
+        <div class="carousel-cell"><a href="#"><img src="products/html.png" alt=""> </a></div>
+        <div class="carousel-cell"><a href="#"><img src="products/css3.png" alt=""></a></div>
+        <div class="carousel-cell"><a href="#"><img src="products/python.png" alt=""></a></div>
+        <div class="carousel-cell"><a href="#"><img src="products/kali.png" alt=""></a></div>
+        <div class="carousel-cell"><a href="biology life processes.html"><img src="" alt=""></a></div>
+        ...
+      </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+</html>
