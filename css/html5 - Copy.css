@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -144,10 +148,8 @@ html {
 .lg {
   font-size: 4vw;
   /* font-family: Slick; */
-  font-family: 'Titillium Web', sans-serif;
 }
 
 .xlg {
   font-size: 5vw;
 }
-
